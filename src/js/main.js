@@ -9,8 +9,8 @@ require.config({
 //二. 引入依赖
 require(['jquery','cookie'],function($,cookie){
 	//操作页面的代码
-	$(function(){
-
+	$(function(){		 
+        
 	})
 })
 

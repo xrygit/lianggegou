@@ -1,4 +1,4 @@
-import 'public';
+@import 'public';
 .margin{
 	width:1190px;
 	margin:0 auto;
@@ -94,7 +94,10 @@ import 'public';
 	color:#5e5e5e;
 	background: url("../images/index/qian.png") no-repeat 75px 13px;
 }
-#top .top-r .my .mylg:hover{color:#0083ce;background: url("../images/index/qian.png") no-repeat 75px -13px;} 
+#top .top-r .my .mylg:hover{
+	color:#0083ce;
+	background: url("../images/index/qian.png") no-repeat 75px -13px;
+} 
 #top .top-r .my:hover .my_list{	
 	color:#0083ce;
 	display:block;	
@@ -181,8 +184,24 @@ header .gwc{
 	width:132px;
 	height:38px;
 }
-
+//nav
 nav {}
+nav .daohang{
+	width:1010px;
+	border-bottom:2px solid #1985d9;
+}
+nav .daohang li {
+	float:left; 
+}
+nav .daohang li a{
+	height:32px;
+	display:block;
+	padding:0 15px;
+	color:#424242;
+}
+nav .daohang li a:hover{
+	color:#0083ce;
+}
 nav .all .title{
 	background:#1985d9;
 	height:34px;
@@ -240,6 +259,7 @@ nav .all .goodslist ul li  a{
 	text-algin:left;
 	margin-left:47px;
 	line-height:40px;
+	font-size:14px;
 	color:#fff;
 }
 nav .all .goodslist ul li .slist{	
@@ -251,17 +271,99 @@ nav .all .goodslist ul li .slist{
 	color: #fff;
 	background-color: #299aef;
 }
+nav .all .goodslist ul li .slist p{
+	position:absolute;
+	width:100%;
+	height:100%;
+	color: #fff;
+	background-color: #299aef;
+	line-height: 40px;
+}	
+nav .all .goodslist ul li:hover .slist p{
+	background:#fff;
+    padding-left:8px;	
+	overflow:hidden;
+}
+nav .all .goodslist ul li:hover .slist p s{
+	margin-left:8px;	
+}
+nav .all .goodslist ul li:hover .slist p a{
+	color:#5e5e5e;
+}
+
 nav .all .goodslist ul li .slist-children{
 	position:absolute;
-	display: block;
+	display: none;
 	left: 179px;
-	top: 0;
+	height:400px;
+	top: 0;	
 	width: 1010px;
 	overflow: hidden;
     z-index: 90;
 }
+
+nav .all .goodslist ul li:hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:0;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(2):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-40px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(3):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-80px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(4):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-120px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(5):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-160px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(6):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-200px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(7):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-240px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(8):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-280px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(9):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-320px;;
+	display:block;
+}
+nav .all .goodslist ul li:nth-child(10):hover .slist-children{
+	position:absolute;
+	background:#fff;
+	top:-360px;;
+	display:block;
+}
 nav .all .goodslist ul li .slist-children .child{
-		width: 504px;
+		width: 504px;		
 		float: left;
 		padding: 0px;
 }
@@ -273,21 +375,288 @@ nav .all .goodslist ul li .slist-children .child dl{
 		margin: 0px;
 		text-align: left;
 }
-nav .all .goodslist ul li .slist-children .child dl dd a.a1 span{color:#000;}
-nav .daohang{
-	width:1010px;
-	border-bottom:2px solid #1985d9;
+nav .all .goodslist ul li .slist-children .child dl dd a.a1 span{
+	color:#5e5e5e;
+	font:700 12px/20px "";	
 }
-nav .daohang li {
-	float:left; 
+nav{
+	.all{
+		.goodslist{
+			ul{
+				li{
+					.slist-children{
+						.child-link{
+								.grand{
+									height:122px;
+									width:229px;
+									 dt{
+										 font:700 12px/33px "";
+										 color:#e43333;
+									 }
+									 dd{										  
+											 a{												 
+												 font:12px/13px "";
+												 white-space: nowrap;
+												 height:13px;
+												 color:#7e7e7e;	
+												 float:left;												
+												 margin:9px 10px 0 -10px;
+												 padding:0 10px;												 											 
+											 }	
+											 .g{
+												 border-left: 1px solid #ddd;	
+											 }
+																				 
+									 }		
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.container{
+		height:400px;
+		width:750px;
+		position:relative;
+		li{			
+			a{
+				display:block;
+				img{
+					height:400px;					
+					width:750px;														
+				}
+			}			
+		}
+	}
+	ol{
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		-webkit-transform: translateX(-50%);		
+		border-radius: 7px;
+		padding: 3px;
+		z-index: 2;
+		li{
+			background: red;
+			float: left;
+			width: 16px;
+			height: 16px;
+			margin-left: 5px;
+			border-radius: 8px;			
+			margin-right: 7px;			
+		}
+	}
+	.zixun{
+		width:259px;
+		border-right:1px solid #e6e6e6;
+		border-bottom:1px solid #e6e6e6;
+		.z-top{
+			.tel{
+				border-bottom:1px solid #e6e6e6;
+				h4{
+					font:16px/36px "";
+					color:#333;
+					float:left;
+					margin-left:10px;
+				}
+				em{
+					background:url(../images/index/dh1.gif) no-repeat 0 9px;
+					color:#f00;
+					font:700 18px/36px "";
+					float:right;
+					padding-left:23px;
+				}
+			}
+			.honor{
+				padding:10px 0;
+				a{
+					display:inline-block;
+					margin:0 5px;					
+					text-align:center;
+					i{
+						background:url(../images/index/icon_gonggao.png) no-repeat left top;
+						width:35px;
+						height:35px;
+						display:block;					
+					}
+					i:hover{
+						transform:translateY(-5px);
+						transition:.2s linear;
+					}
+					.i1{background-position:-5px 0;}
+					.i2{background-position:-50px 0;}
+					.i3{background-position:-95px 0;}
+					.i4{background-position:-140px 0;}
+					.i5{background-position:-185px 0;}
+					.i6{background-position:-230px 0;}
+					.i7{background-position:-275px 0;}
+					.i8{background-position:-320px 0;}				
+					span{
+						font:12px/35px "";
+						color:#5e5e5e;					
+					}				
+				}
+				.te1{margin-left:15px;}			
+			}
+		}
+		.z-bottom{
+			.gg{
+				border-top:1px solid #e6e6e6;
+				border-bottom:1px solid #e6e6e6;				
+				span{
+					font:16px/36px "";
+					color:#333;				
+					margin-left:9px;
+				}
+				a{
+					font:12px/36px "";
+					color:#e72418;
+					margin-right:5px;
+				}
+			}
+			p{
+				a{
+					color:#5e5e5e;
+					font:12px/26px "";
+					background: url("../images/index/dian.png") no-repeat 10px 7px;
+					padding-left:22px;
+				}
+			}
+		}
+		
+	}
 }
-nav .daohang li a{
-	height:32px;
-	display:block;
-	padding:0 15px;
-	color:#424242;
+#timeshop{
+	width:1190px;
+	margin-top:10px;	
+	.clock{
+		width:180px;
+		height:150px;
+		position:relative;
+		float:left;
+		background:url("../images/index/clock01.png") no-repeat;
+		.clocktime{
+			position:absolute;
+			width:40px;
+			height:40px;
+			border-radius:20px;
+			left:63px;
+			border:6px solid rgba(0,0,0,0);
+			top:32px;
+			.h{
+				width:5px;
+				height:18px;
+				position:absolute;
+				top:9px;
+				left:13px;
+				transform:rotate(93deg);
+				background:url("../images/index/clock_h.png") no-repeat;
+			}
+			.m{
+				position: absolute;
+				left: 5px;
+				top: 19px;
+				width: 19px;
+				height: 5px;		
+			}
+			.m:after{
+				position: absolute;
+				left: 14px;
+				top: -17px;
+				width: 4px;
+				height: 21px;
+				background-color: #1985D9;
+				border-radius: 2px;		
+				border: 1px solid transparent;
+				-webkit-transform-origin: 2.5px 19.5px;
+				-webkit-animation: tick-tock 20s steps(60,end) infinite;
+				-moz-transform-origin: 2.5px 19.5px;
+				-moz-animation: tick-tock 20s steps(60,end) infinite;
+				transform-origin: 2.5px 19.5px;
+				animation: tick-tock 20s steps(60,end) infinite;			
+				content:'';			
+				background:url("../images/index/clock_h.png") no-repeat;
+			}
+			.s{
+				position:absolute;
+				left:0;top:0;
+				width:5px;
+				height:5px;
+				border-radius:50%;
+				background:#fff;			
+				
+			}
+		}
+	}
+	.sp{
+		margin-left:3px;
+		width:1190px;		
+		float:left;
+		a{
+			float:right;
+			margin-top:-150px;
+			margin-left:4px;
+			img{
+				width:250px;
+				height:150px;
+			}
+			
+		}
+	}	
 }
-nav .daohang li a:hover{
-	color:#0083ce;
+#hot{
+	height:402px;
+	margin-top:30px;
+	border-top:2px solid #fc4e4d;
+	.hot-l{
+		width:181px;
+		height:85px;
+		background:#fc4e4d;			
+		p{
+			height:85px;
+			text-align:center;
+			span{
+				font:20px/85px "";
+				color:#fff;	
+				
+			}
+		}
+		a{
+			display:block;
+			img{
+				
+			}
+		}
+		
+	}
+	.hot-r{
+		margin-left:20px;
+		.sale{
+			li{
+				margin-top:10px;
+				a{
+					display:block;
+					color:#5e5e5e;
+					font:12px/20px "";
+					text-align:center;
+					img{
+						width:130px;
+						height:130px;
+					}
+				}
+				p{
+					color:#E72418;
+					font:14px/20px "";
+					text-align:center;
+					span{
+						
+					}
+				}
+			}
+		}
+	}
 }
-
+#ad_pic{
+	margin-top:30px;
+}
