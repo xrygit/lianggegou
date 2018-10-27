@@ -605,14 +605,17 @@ nav{
 		}
 	}	
 }
+
+
+
+
 #hot{
 	height:402px;
 	margin-top:30px;
 	border-top:2px solid #fc4e4d;
 	.hot-l{
-		width:181px;
-		height:85px;
-		background:#fc4e4d;			
+		width:181px;		
+		background:#fc4e4d;				
 		p{
 			height:85px;
 			text-align:center;
@@ -631,32 +634,241 @@ nav{
 		
 	}
 	.hot-r{
-		margin-left:20px;
+		width:1009px;
+		height:201px;				
 		.sale{
-			li{
-				margin-top:10px;
+			width:100%;
+			overflow:hidden;
+			li{				
+				float:left;				
+				width: 200.8px;
+				border-right: 1px solid #f3f3f3;
+				border-bottom: 1px solid #f3f3f3;
+				height: 200px;				
+				text-align:center;
+				.pic{
+					width: 130px;
+					height: 130px;
+					margin: 0 auto;
+					padding-top: 15px;
+					a{
+						display:block;
+						color:#5e5e5e;
+						font:12px/20px "";
+						text-align:center;
+						img{
+							margin:0 atuto;
+							display:block;
+							width:130px;
+							height:130px;
+						}
+					}
+					
+				}
 				a{
 					display:block;
 					color:#5e5e5e;
 					font:12px/20px "";
 					text-align:center;
-					img{
-						width:130px;
-						height:130px;
-					}
 				}
+			
 				p{
 					color:#E72418;
 					font:14px/20px "";
 					text-align:center;
-					span{
-						
-					}
+					
 				}
+				
 			}
 		}
 	}
 }
+
+
+
 #ad_pic{
 	margin-top:30px;
+}
+#tuijian{
+	height:402px;
+	margin-top:30px;
+	border-top:2px solid #fbbc05;;
+	.tuijian-l{
+		width:181px;
+	    overflow:hidden;
+		background:#fbbc05;;			
+		p{
+			height:85px;
+			text-align:center;
+			span{
+				font:20px/85px "";
+				color:#fff;	
+				
+			}
+		}
+		a{
+			display:block;
+			img{
+				
+			}
+		}
+		
+	}
+	.tuijian-r{
+		width:1009px;
+		height:201px;				
+		.sale{
+			width:100%;
+			overflow:hidden;
+			li{				
+				float:left;				
+				width: 200.8px;
+				border-right: 1px solid #f3f3f3;
+				border-bottom: 1px solid #f3f3f3;
+				height: 200px;
+				
+				text-align:center;
+				.pic{
+					width: 130px;
+					height: 130px;
+					margin: 0 auto;
+					padding-top: 15px;
+					a{
+						display:block;
+						color:#5e5e5e;
+						font:12px/20px "";
+						text-align:center;
+						img{
+							margin:0 atuto;
+							display:block;
+							width:130px;
+							height:130px;
+						}
+					}
+					
+				}
+				a{
+					display:block;
+					color:#5e5e5e;
+					font:12px/20px "";
+					text-align:center;
+				}			
+				p{
+					color:#E72418;
+					font:14px/20px "";
+					text-align:center;					
+				}				
+			}
+		}
+	}
+}
+#shouhou{
+	margin-top:50px;
+	margin-bottom:20px;
+	.honor{		
+		a{		
+			float:left;	
+			text-align:center;			
+		    width:70px;	
+			margin:0 24px;
+			i{
+				background:url("../images/index/icon_gonggaob.png") no-repeat left top;
+				width:50px;
+				height:52px;
+				display:block;	
+				margin:0 10px;
+			}
+			i:hover{
+				transform:translateY(-5px);
+				transition:.1s linear;
+			}
+			.i1{background-position:0px -3px;}
+			.i2{background-position:-129px -3px;}
+			.i3{background-position:-64px -3px;}
+			.i4{background-position:-194px -3px;}
+			.i5{background-position:-260px -3px;}
+			.i6{background-position:-326px -3px;}
+			.i7{background-position:-391px -3px;}
+			.i8{background-position:-458px -3px;}
+			.i9{background-position:-523px -3px;}	
+			.i10{background-position:-590px -3px;}	
+			span{
+				font:12px/35px "";
+				color:#5e5e5e;					
+			}				
+		}
+		.te1{margin-left:25px;}			
+	}
+}
+#pagefoot{
+	width:100%;
+	height:220px;
+    background: #0083ce url("http://359mai-images.s3.mall.ekaidian.com/themes/1454139189/images/ft_bg.gif") no-repeat right top;
+    .pay{		
+		.x{
+			float:left;
+			width:100px;height:123px;
+			margin-left:30px;
+			margin-top:20px;
+			.t2{
+				a{
+					color:#fff;
+					display:block;
+					font:700 14px/30px "";					
+				}			
+				
+			  }
+			  a{
+				display:block;
+				font-size:12px;
+				color:#fff;
+				line-height:24px;
+			  }
+		   
+		}
+		
+	}
+	.ER{	
+		margin-right:150px;
+		.E1{
+			margin-top:20px;
+			margin-left:30px;
+			float:left;
+			width:100px;
+			a{
+				display:block;
+			}
+			span,em{
+				font-size:12px;
+				color:#fff;
+			}
+		}
+	}
+}
+#foot{
+	 margin-top:10px;
+	 .lj{
+		a{
+			color:#5e5e5e;
+			font:12px/30px "";
+			margin-left:15px;
+		} 
+	 }
+	 .banquan{
+		 margin-top:50px;
+		 padding-bottom:20px;
+		 
+		 p{
+			 text-align:center;
+			 color:#5e5e5e;
+			 font:12px/24px "";
+			 span{float:left;margin-left:120px;}			
+			 img{	
+				
+				 float:left;				
+				 margin-left:40px;
+			 }
+		 }
+	 }
+	
 }

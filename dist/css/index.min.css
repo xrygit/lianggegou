@@ -623,7 +623,6 @@ nav .zixun {
   border-top: 2px solid #fc4e4d; }
   #hot .hot-l {
     width: 181px;
-    height: 85px;
     background: #fc4e4d; }
     #hot .hot-l p {
       height: 85px;
@@ -634,21 +633,191 @@ nav .zixun {
     #hot .hot-l a {
       display: block; }
   #hot .hot-r {
-    margin-left: 20px; }
-    #hot .hot-r .sale li {
-      margin-top: 10px; }
-      #hot .hot-r .sale li a {
-        display: block;
-        color: #5e5e5e;
-        font: 12px/20px "";
+    width: 1009px;
+    height: 201px; }
+    #hot .hot-r .sale {
+      width: 100%;
+      overflow: hidden; }
+      #hot .hot-r .sale li {
+        float: left;
+        width: 200.8px;
+        border-right: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        height: 200px;
         text-align: center; }
-        #hot .hot-r .sale li a img {
+        #hot .hot-r .sale li .pic {
           width: 130px;
-          height: 130px; }
-      #hot .hot-r .sale li p {
-        color: #E72418;
-        font: 14px/20px "";
-        text-align: center; }
+          height: 130px;
+          margin: 0 auto;
+          padding-top: 15px; }
+          #hot .hot-r .sale li .pic a {
+            display: block;
+            color: #5e5e5e;
+            font: 12px/20px "";
+            text-align: center; }
+            #hot .hot-r .sale li .pic a img {
+              margin: 0 atuto;
+              display: block;
+              width: 130px;
+              height: 130px; }
+        #hot .hot-r .sale li a {
+          display: block;
+          color: #5e5e5e;
+          font: 12px/20px "";
+          text-align: center; }
+        #hot .hot-r .sale li p {
+          color: #E72418;
+          font: 14px/20px "";
+          text-align: center; }
 
 #ad_pic {
   margin-top: 30px; }
+
+#tuijian {
+  height: 402px;
+  margin-top: 30px;
+  border-top: 2px solid #fbbc05; }
+  #tuijian .tuijian-l {
+    width: 181px;
+    overflow: hidden;
+    background: #fbbc05; }
+    #tuijian .tuijian-l p {
+      height: 85px;
+      text-align: center; }
+      #tuijian .tuijian-l p span {
+        font: 20px/85px "";
+        color: #fff; }
+    #tuijian .tuijian-l a {
+      display: block; }
+  #tuijian .tuijian-r {
+    width: 1009px;
+    height: 201px; }
+    #tuijian .tuijian-r .sale {
+      width: 100%;
+      overflow: hidden; }
+      #tuijian .tuijian-r .sale li {
+        float: left;
+        width: 200.8px;
+        border-right: 1px solid #f3f3f3;
+        border-bottom: 1px solid #f3f3f3;
+        height: 200px;
+        text-align: center; }
+        #tuijian .tuijian-r .sale li .pic {
+          width: 130px;
+          height: 130px;
+          margin: 0 auto;
+          padding-top: 15px; }
+          #tuijian .tuijian-r .sale li .pic a {
+            display: block;
+            color: #5e5e5e;
+            font: 12px/20px "";
+            text-align: center; }
+            #tuijian .tuijian-r .sale li .pic a img {
+              margin: 0 atuto;
+              display: block;
+              width: 130px;
+              height: 130px; }
+        #tuijian .tuijian-r .sale li a {
+          display: block;
+          color: #5e5e5e;
+          font: 12px/20px "";
+          text-align: center; }
+        #tuijian .tuijian-r .sale li p {
+          color: #E72418;
+          font: 14px/20px "";
+          text-align: center; }
+
+#shouhou {
+  margin-top: 50px;
+  margin-bottom: 20px; }
+  #shouhou .honor a {
+    float: left;
+    text-align: center;
+    width: 70px;
+    margin: 0 24px; }
+    #shouhou .honor a i {
+      background: url("../images/index/icon_gonggaob.png") no-repeat left top;
+      width: 50px;
+      height: 52px;
+      display: block;
+      margin: 0 10px; }
+    #shouhou .honor a i:hover {
+      transform: translateY(-5px);
+      transition: .1s linear; }
+    #shouhou .honor a .i1 {
+      background-position: 0px -3px; }
+    #shouhou .honor a .i2 {
+      background-position: -129px -3px; }
+    #shouhou .honor a .i3 {
+      background-position: -64px -3px; }
+    #shouhou .honor a .i4 {
+      background-position: -194px -3px; }
+    #shouhou .honor a .i5 {
+      background-position: -260px -3px; }
+    #shouhou .honor a .i6 {
+      background-position: -326px -3px; }
+    #shouhou .honor a .i7 {
+      background-position: -391px -3px; }
+    #shouhou .honor a .i8 {
+      background-position: -458px -3px; }
+    #shouhou .honor a .i9 {
+      background-position: -523px -3px; }
+    #shouhou .honor a .i10 {
+      background-position: -590px -3px; }
+    #shouhou .honor a span {
+      font: 12px/35px "";
+      color: #5e5e5e; }
+  #shouhou .honor .te1 {
+    margin-left: 25px; }
+
+#pagefoot {
+  width: 100%;
+  height: 220px;
+  background: #0083ce url("http://359mai-images.s3.mall.ekaidian.com/themes/1454139189/images/ft_bg.gif") no-repeat right top; }
+  #pagefoot .pay .x {
+    float: left;
+    width: 100px;
+    height: 123px;
+    margin-left: 30px;
+    margin-top: 20px; }
+    #pagefoot .pay .x .t2 a {
+      color: #fff;
+      display: block;
+      font: 700 14px/30px ""; }
+    #pagefoot .pay .x a {
+      display: block;
+      font-size: 12px;
+      color: #fff;
+      line-height: 24px; }
+  #pagefoot .ER {
+    margin-right: 150px; }
+    #pagefoot .ER .E1 {
+      margin-top: 20px;
+      margin-left: 30px;
+      float: left;
+      width: 100px; }
+      #pagefoot .ER .E1 a {
+        display: block; }
+      #pagefoot .ER .E1 span, #pagefoot .ER .E1 em {
+        font-size: 12px;
+        color: #fff; }
+
+#foot {
+  margin-top: 10px; }
+  #foot .lj a {
+    color: #5e5e5e;
+    font: 12px/30px "";
+    margin-left: 15px; }
+  #foot .banquan {
+    margin-top: 50px;
+    padding-bottom: 20px; }
+    #foot .banquan p {
+      text-align: center;
+      color: #5e5e5e;
+      font: 12px/24px ""; }
+      #foot .banquan p span {
+        float: left;
+        margin-left: 120px; }
+      #foot .banquan p img {
+        float: left;
+        margin-left: 40px; }
