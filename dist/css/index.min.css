@@ -53,8 +53,11 @@ a {
 .r {
   float: right; }
 
-em {
+em, i {
   font-style: normal; }
+
+u {
+  text-decoration: none; }
 
 .margin {
   width: 1190px;
@@ -199,7 +202,8 @@ em {
   display: block; }
 
 header {
-  height: 94px; }
+  height: 94px;
+  position: relative; }
 
 header .search {
   margin-left: 216px;
@@ -243,7 +247,30 @@ header .search .search-bottom a {
 header .gwc {
   background: url("../images/index/gwc.gif") no-repeat;
   width: 132px;
-  height: 38px; }
+  height: 38px;
+  position: absolute;
+  right: 0px;
+  top: 34px;
+  z-index: 40; }
+  header .gwc #mincart {
+    width: 132px;
+    height: 38px; }
+    header .gwc #mincart .min-text {
+      display: block;
+      width: 132px;
+      height: 38px; }
+      header .gwc #mincart .min-text em {
+        height: 16px;
+        width: 18px;
+        display: block;
+        position: absolute;
+        left: 44px;
+        top: 4px;
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        line-height: 16px;
+        font-weight: bold; }
 
 nav .daohang {
   width: 1010px;
@@ -821,3 +848,39 @@ nav .zixun {
       #foot .banquan p img {
         float: left;
         margin-left: 40px; }
+
+#float_box {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 52px; }
+  #float_box a em {
+    width: 50px;
+    height: 50px;
+    background: #f00;
+    color: #fff;
+    display: none;
+    font: 17px/20px "";
+    text-align: center; }
+  #float_box .kf {
+    background: url("../images/login/5a3980a540b574f984a70a7eb5fe641b.png") no-repeat 0px 0px;
+    width: 52px;
+    height: 52px; }
+  #float_box .car {
+    background: url("../images/login/5a3980a540b574f984a70a7eb5fe641b.png") no-repeat 0px -52px;
+    width: 52px;
+    height: 52px; }
+  #float_box .car:hover a em {
+    display: block; }
+  #float_box .fk {
+    background: url("../images/login/5a3980a540b574f984a70a7eb5fe641b.png") no-repeat 0px -153px;
+    width: 52px;
+    height: 52px; }
+  #float_box .fk:hover a em {
+    display: block; }
+  #float_box .returntop {
+    background: url("../images/login/5a3980a540b574f984a70a7eb5fe641b.png") no-repeat 0px -204px;
+    width: 52px;
+    height: 52px; }
+  #float_box .returntop:hover a em {
+    display: block; }

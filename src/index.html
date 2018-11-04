@@ -4,18 +4,21 @@
 		<meta charset="UTF-8">
 		<title>量格购(359mai.com)-国货精品的推崇者</title>	
 		<meta name="description" content="量格购-综合网上购物商城，坚持“以客户为中心”的理念，秉承“正品行货”信念，销售电脑、数码家电、母婴百货、智能设备等产品，提供专业服务：全国联保、货到付款、30天内可退换货。为消费者提供便利、快捷的网购体验。">
-		<link rel="stylesheet" href="../dist/css/index.min.css" />
-		<script src="js/require.js" defer async="true" data-main='js/main'></script>
-	   <script src="js/lunbo.js"></script>	
+		<link rel="stylesheet" href="../dist/css/index.min.css" />	
+		<script type="text/javascript" src="js/jquery-1.11.3.js" ></script>
+		<script type="text/javascript" src="js/jquery.cookie.js" ></script>
+		<script type="text/javascript" src="js/index.js" ></script>	
+	  <script src="js/lunbo.js"></script>			
+		<script src ='js/index_data.js'></script>
 	</head>
 	<body>
 		<section id='top' class='clear'>
 			<div class='margin'>
-				<div class='top-l l'>
+			<!-- 	<div class='top-l l'>
 					<span>您好，欢迎来量格购！</span>
-					<a href="#">[请登录]</a>
-					<a href="#">[免费注册]</a>
-				</div>
+					<a href="login.html">[请登录]</a>
+					<a href="register.html">[免费注册]</a>
+				</div> -->
 				<div class='top-r r'>
 					<div class='sc r'>
 						<a href="">收藏</a>
@@ -63,7 +66,14 @@
 					<a href="#">茶叶<span>|</span></a>
 					<a href="#">华为笔记本<span>|</span></a>
 				</div>					
-			</div>					
+			</div>
+			<div class='gwc r'>		
+					<div id='mincart'>
+						<a href="#" class='min-text'>
+							<em>0</em>
+						</a>
+					</div>					
+			</div>	
 		</header>
 		<nav class='margin clear'>
 			<div class='all l'>
@@ -117,7 +127,7 @@
 										<dd><a href="#" class='a1'><span>女鞋</span></a></dd>
 									</dl>
 									<dl>										
-										<dd><a href="#" class='a1'><span>女装</span></a></dd>
+										<dd><a href="goodslist.html" class='a1'><span>女装</span></a></dd>
 										<dd><a href="#" class='a1'><span>男鞋</span></a></dd>
 										<dd><a href="#" class='a1'><span>童装</span></a></dd>
 									</dl>
@@ -475,79 +485,16 @@
 				</a>						
 			</div>
 			<div class='hot-r l'>
-				<ul class='sale'>				
-					<li>	
+				<ul class='sale' id ='sale1'>				
+			<!-- 		<li>	
 						<div class='pic'>
 							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
+							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg">
 							</a>
 						</div>					
 						<a href="">潮汕正宗香菇贡丸500g</a>
 						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>		
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-							<img alt="潮汕正宗香菇贡丸500g" 　data-img-zoom="true" src="images/index/19b48369d21da01cf606e775da267cf6.jpg"></a>
-							</a>
-						</div>					
-						<a href="">潮汕正宗香菇贡丸500g</a>
-						<p><span>抢购价</span><em>￥46.00</em></p>
-					</li>				
+					</li>						 -->												
 				</ul>
 			</div>
 		</div>
@@ -563,8 +510,8 @@
 				</a>						
 			</div>
 			<div class='tuijian-r l'>
-				<ul class='sale clear'>
-					<li>	
+				<ul class='sale clear' id='sale2'>
+				<!-- 	<li>	
 						<div class='pic'>
 							<a href="#">
 								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
@@ -572,88 +519,8 @@
 						</div>					
 						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
 						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>			
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
-					<li>	
-						<div class='pic'>
-							<a href="#">
-								<img class='valign' alt="正宗福鼎特产蜜汁鸡翅卤味熟食小吃真空小包装 11个/盒" 　data-img-zoom="true" src="images/index/1531c27ca72bba0483096f055a9cd244.jpg">
-							</a>
-						</div>					
-						<a href="">正宗福鼎特产蜜汁鸡翅卤味熟</a>
-						<p><span>抢购价</span><em>￥78.00</em></p>
-					</li>				
+					</li>		 -->
+				
 				</ul>
 			</div>
 		</div>
@@ -790,15 +657,31 @@
 						<p class='clear'>
 							<span>© 2018 All rights reserved   有任何购物问题请联系我们在线客服 | 电话：13157632491 | 工作时间：周一至周五 8:00－18:00  粤ICP备16005068  </span>
 						  <img src="images/index/bottom_large_img.png">
-						</p>
-						
+						</p>						
 					</div>
 			</div>				
+		</div>
+		<div id='float_box'>
+			<div class='kf'>
+				<a href="#"></a>
+			</div>
+			<div class='car'>
+				<a href="#"><em>购物车</em></a>
+			</div>
+			<div class='fk'>
+				<a href="#"><em>用户反馈</em></a>
+			</div>
+			<div class='returntop'>
+				<a href="#" onclick ="return_top()">
+					<em>返回顶部</em>
+				</a>
+			</div>
 		</div>
 		
 		<script type="text/javascript">			
 			new Slider("slide1");
 		</script>
+		
 	</body>
 	
 </html>
